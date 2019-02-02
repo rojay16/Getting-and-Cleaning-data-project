@@ -1,4 +1,5 @@
 ##Codebook Overview
+
 The data set this script tidies up is accelreometer and gyrometer data taken from a smartphone, when the smartphone was attatched to participants doing 6 different activities (walking, walking upstairs, walking downstairs, standing ,sitting and lying down). The oroginal dataset and experiment can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The tided data takes a subset of the data from these studies and calculates the mean of the variables of the subset, based on the ac done and the subject doing it. 
 
