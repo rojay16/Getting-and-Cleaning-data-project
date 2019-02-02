@@ -62,5 +62,5 @@ final_table<-summarize_at(grouped_data,.var=3:length(total_fil_data),mean)
 # the tidy data, where the mean for each column (representing a variables) 
 # has been calculated by subject and by activity
 
-write.table(final_table,"uci_dataset_tidy_data.txt")
+write.table(final_table,"uci_dataset_tidy_data.txt",row.names = F)
 #writing the table into a txt file
