@@ -41,7 +41,9 @@ names(total_fil_data)<-c("Subject","Activities",rename)
 
 #changing the names of the variables in the data set from "V.1", "V.2" ect
 # to the names of the variables they actually represent
+
 total_fil_data<-arrange(total_fil_data,total_fil_data[[1]],total_fil_data[[2]])
+#ordering the data by subject and with the subject by activity (in ascending order)
 
 activity_label=c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS", "SITTING","STANDING","LAYING")
 
