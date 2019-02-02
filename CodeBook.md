@@ -41,7 +41,7 @@ correlation(): correlation coefficient between two signals\
 maxInds(): index of the frequency component with largest magnitude\
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency\
 skewness(): skewness of the frequency domain signal\ 
-kurtosis(): kurtosis of the frequency domain signal\ 
+kurtosis(): kurtosis of the frequency domain signal\
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.\
 angle(): Angle between to vectors.\
 
